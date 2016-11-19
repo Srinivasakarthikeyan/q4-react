@@ -1,0 +1,14 @@
+
+
+
+-----------------------------
+
+  App
+
+     Header
+        TodoTextInput
+     TodoList
+        TodoItem
+        Footer
+
+-----------------------------        

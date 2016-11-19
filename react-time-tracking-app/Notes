@@ -1,0 +1,20 @@
+
+
+
+3. determine  what should be stateful
+
+  stateful-data
+
+   --> list of timers and properties of each timers
+   --> wheather or not edit form of a timer is open
+   --> wheather or not the create form is open
+       
+ 4. Identify Where Your State Should Live 
+
+
+  --> Timer-Data  will be owned and managed by 'TimersDashboard'
+  --> Eact 'EditableTimer' will manage the state of its timer edit form.
+  --> The 'ToggleableTimerForm' will manage the state of its form visibiliy
+
+  ----------------------------------------------------
+      

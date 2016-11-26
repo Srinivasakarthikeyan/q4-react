@@ -1,12 +1,15 @@
 {
-  "name": "react-app",
+  "name": "react-es6",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "npm init",
+  "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --port 8181"
+    "start": "webpack-dev-server",
+     "test": "mocha --reporter spec --recursive --compilers js:babel-register",
+     "test:watch": "npm test -- --watch"
   },
-  "author": "nag",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "6.16.0",
@@ -28,12 +31,13 @@
   },
   "dependencies": {
     "classnames": "2.2.5",
-    "jquery": "3.1.1",
-    "react": "15.4.0",
-    "react-dom": "15.4.0",
-    "react-redux": "4.4.6",
+    "es6-promise": "4.0.5",
+    "isomorphic-fetch": "2.2.1",
+    "react": "15.3.2",
+    "react-addons-test-utils": "15.3.2",
+    "react-dom": "15.3.2",
+    "react-redux": "4.4.5",
     "redux": "3.6.0",
-    "redux-devtools-extension": "1.0.0",
     "redux-thunk": "2.1.0",
     "todomvc-app-css": "2.0.6"
   }

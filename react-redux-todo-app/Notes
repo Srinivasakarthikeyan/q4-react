@@ -1,0 +1,19 @@
+
+
+
+TodoApp - UI
+
+------------------------------
+
+    App
+
+     a. Header
+
+         i.TodoTextInput
+
+     b. TodoList
+
+         i. TodoItem
+         ii. Footer    
+
+ -----------------------------

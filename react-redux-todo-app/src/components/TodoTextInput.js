@@ -1,4 +1,3 @@
-
 import React, { Component, PropTypes } from 'react'
 import classnames from 'classnames'
 
@@ -56,4 +55,4 @@ TodoTextInput.propTypes = {
   newTodo: PropTypes.bool
 }
 
-export default TodoTextInput;
+export default TodoTextInput
